@@ -21,7 +21,7 @@ import lombok.Data;
 @Table(name = "drivers")
 public class Driver {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Generatedval(strategy = Generation)
 	private int id;
 	
 	@Column(length = 45)
